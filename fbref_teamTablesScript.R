@@ -1,5 +1,8 @@
 #this script will scrape league tables from the top 5 football leagues courtesy of 
 #this script requires the following packages: rvest, xml2
+library(tidyverse)
+
+library(rvest)
 
 english_premier_league <- read_html("https://fbref.com/en/comps/9/Premier-League-Stats")
 la_liga <- read_html("https://fbref.com/en/comps/12/La-Liga-Stats")
